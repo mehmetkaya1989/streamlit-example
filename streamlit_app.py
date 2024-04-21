@@ -18,7 +18,7 @@ conn.commit()
 
 
 
-df=pd.read_csv("yorum.csv.zip",on_bad_lines="skip",delimiter=";")
+df=pd.read_csv("trendyol_yrm.csv",on_bad_lines="skip",delimiter=";")
 
 
 def temizle(sutun):
